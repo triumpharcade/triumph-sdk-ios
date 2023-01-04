@@ -24,14 +24,14 @@ Pod::Spec.new do |s|
   s.dependency 'Firebase/Performance'
   s.dependency 'TweeTextField'
   s.dependency 'PhoneNumberKit'
-  # s.dependency 'CropViewController'
-  # s.dependency 'Intercom'
+  s.dependency 'CropViewController'
+  s.dependency 'Intercom'
   s.dependency 'GEOSwift'
-  # s.dependency 'CheckoutEventLoggerKit'
+  s.dependency 'CheckoutEventLoggerKit'
   s.dependency 'Frames', '~> 3.0'
   s.dependency 'Kingfisher'
   s.dependency 'lottie-ios'
   s.dependency 'RecaptchaEnterprise', '~> 18.0.0'
 
-  s.vendored_frameworks = 'TriumphSDK.xcframework', 'Intercom.xcframework', 'Microblink.xcframework', 'Passbase.xcframework', 'CheckoutEventLoggerKit.xcframework'
+  s.vendored_frameworks = 'TriumphSDK.xcframework', 'Microblink.xcframework', 'Passbase.xcframework'
 end
