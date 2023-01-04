@@ -8,7 +8,7 @@ git pull
 ```
 If you are new developer:
 ```
-pod trunk register maksim@triumpharcade.com
+pod trunk register <your@email.com> "Full Name"
 ```
 
 Lint Podspec
