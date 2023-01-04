@@ -15,5 +15,23 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '14.0'
   s.static_framework = true
 
+  spec.dependency 'Firebase/Analytics'
+  spec.dependency 'Firebase/Crashlytics'
+  spec.dependency 'Firebase/DynamicLinks'
+  spec.dependency 'Firebase/Storage'
+  spec.dependency 'Firebase/Firestore'
+  spec.dependency 'Firebase/Auth'
+  spec.dependency 'Firebase/Performance'
+  spec.dependency 'TweeTextField'
+  spec.dependency 'PhoneNumberKit'
+  spec.dependency 'CropViewController'
+  spec.dependency 'Intercom'
+  spec.dependency 'GEOSwift'
+  spec.dependency 'CheckoutEventLoggerKit'
+  spec.dependency 'Frames', '~> 3.0'
+  spec.dependency 'Kingfisher'
+  spec.dependency 'lottie-ios'
+  spec.dependency 'RecaptchaEnterprise', '~> 18.0.0'
+
   s.vendored_frameworks = 'TriumphSDK.xcframework', 'Intercom.xcframework', 'Microblink.xcframework', 'Passbase.xcframework', 'CheckoutEventLoggerKit.xcframework'
 end
