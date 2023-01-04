@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://www.triumpharcade.com"
   s.license      = { :type => 'Custom', :file => 'LICENSE' }
   s.author       = { "Triumph Labs Inc" => "info@triumpharcade.com" }
-  s.source       = { :http => 'https://cdn.triumpharcade.com/triumph-kit-releases/TriumphSDK-v1.0.1.zip' }
+  s.source       = { :http => 'https://cdn.triumpharcade.com/triumph-kit-releases/TriumphSDK-test-v1.0.2.zip' }
   
   s.swift_version    = '5.7'
   s.ios.deployment_target = '14.0'
