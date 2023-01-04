@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.dependency 'Firebase/Firestore'
   s.dependency 'Firebase/Auth'
   s.dependency 'Firebase/Performance'
-  s.dependency 'TweeTextField'
+  # s.dependency 'TweeTextField'
   s.dependency 'PhoneNumberKit'
   s.dependency 'CropViewController'
   s.dependency 'Intercom'
