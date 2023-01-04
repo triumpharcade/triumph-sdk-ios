@@ -13,7 +13,7 @@ pod trunk register <your@email.com> "Full Name"
 
 Lint Podspec
 ```
-pod spec lint
+pod spec lint --allow-warnings
 ```
 
 Push new version:
