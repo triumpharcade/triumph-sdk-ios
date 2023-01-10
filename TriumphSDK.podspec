@@ -25,7 +25,6 @@ Pod::Spec.new do |s|
   s.dependency 'TweeTextField'
   s.dependency 'PhoneNumberKit'
   s.dependency 'CropViewController'
-  s.dependency 'Intercom'
   s.dependency 'GEOSwift'
   s.dependency 'CheckoutEventLoggerKit'
   s.dependency 'Frames', '~> 3.5.3'
