@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '14.0'
   # s.static_framework = true
 
-  s.resources = 'TriumphSDK/Resources/**/*.bundle'
+  s.resources = 'TriumphSDK/**/*.bundle'
 
   s.dependency 'Firebase/Analytics'
   s.dependency 'Firebase/Crashlytics'
