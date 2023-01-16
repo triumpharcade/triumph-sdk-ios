@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'Custom', :file => 'LICENSE' }
   s.author       = { "Triumph Labs Inc" => "info@triumpharcade.com" }
   s.source       = { :http => 'https://cdn.triumpharcade.com/triumph-kit-releases/TriumphSDK-v1.0.4.zip' }
-  
+
   s.swift_version    = '5.0'
   s.ios.deployment_target = '14.0'
-  s.static_framework = true
+  # s.static_framework = true
 
   s.dependency 'Firebase/Analytics'
   s.dependency 'Firebase/Crashlytics'
