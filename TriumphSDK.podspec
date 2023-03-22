@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TriumphSDK"
-  s.version      = "1.1.2"
+  s.version      = "1.1.3-eplay"
   s.summary      = "The Premier Real Money Tournament SDK"
   s.description  = <<-DESC
   "To learn about Triumph's offerings, visit our website: https://www.triumpharcade.com"
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://www.triumpharcade.com"
   s.license      = { :type => 'Custom', :file => 'LICENSE' }
   s.author       = { "Triumph Labs Inc" => "info@triumpharcade.com" }
-  s.source       = { :http => 'https://cdn.triumpharcade.com/triumph-kit-releases/TriumphSDK-v1.1.2.zip' }
+  s.source       = { :http => 'https://cdn.triumpharcade.com/triumph-kit-releases/TriumphSDK-eplay.zip' }
 
   s.swift_version    = '5.0'
   s.ios.deployment_target = '14.0'
@@ -32,8 +32,7 @@ Pod::Spec.new do |s|
   s.dependency 'lottie-ios', '~> 4.1.2'
   s.dependency 'PayPalCheckout', '~> 0.110.0'
   s.dependency 'PhoneNumberKit', '~> 3.3.3'
-  s.dependency 'RecaptchaEnterprise', '~> 18.0.0'
   s.dependency 'TweeTextField', '~> 1.6.4'
 
-  s.vendored_frameworks = 'TriumphSDK.xcframework', 'Intercom.xcframework'
+  s.vendored_frameworks = 'TriumphSDK.xcframework', 'Intercom.xcframework', 'RecaptchaEnterprise.xcframework'
 end
