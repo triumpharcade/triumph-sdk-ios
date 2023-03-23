@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TriumphSDK"
-  s.version      = "1.1.3-eplay2"
+  s.version      = "1.1.3-eplay3"
   s.summary      = "The Premier Real Money Tournament SDK"
   s.description  = <<-DESC
   "To learn about Triumph's offerings, visit our website: https://www.triumpharcade.com"
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://www.triumpharcade.com"
   s.license      = { :type => 'Custom', :file => 'LICENSE' }
   s.author       = { "Triumph Labs Inc" => "info@triumpharcade.com" }
-  s.source       = { :http => 'https://cdn.triumpharcade.com/triumph-kit-releases/TriumphSDK-eplay.2.zip' }
+  s.source       = { :http => 'https://cdn.triumpharcade.com/triumph-kit-releases/TriumphSDK-eplay-3.zip' }
 
   s.swift_version    = '5.0'
   s.ios.deployment_target = '14.0'
