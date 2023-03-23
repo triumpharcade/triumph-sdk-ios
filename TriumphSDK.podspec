@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.dependency 'Firebase/DynamicLinks', '10.5.0'
   s.dependency 'Firebase/Firestore', '10.5.0'
   s.dependency 'Firebase/Performance', '10.5.0'
-  s.dependency 'Firebase/Storage', 10.5.0'
+  s.dependency 'Firebase/Storage', '10.5.0'
   
   s.dependency 'Frames', '3.5.3'
   s.dependency 'GEOSwift', '9.0.0'
