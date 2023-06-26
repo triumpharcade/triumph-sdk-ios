@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TriumphSDK"
-  s.version      = "1.2.0"
+  s.version      = "1.2.1"
   s.summary      = "The Premier Real Money Tournament SDK"
   s.description  = <<-DESC
   "To learn about Triumph's offerings, visit our website: https://www.triumpharcade.com"
@@ -9,12 +9,12 @@ Pod::Spec.new do |s|
   s.homepage     = "https://www.triumpharcade.com"
   s.license      = { :type => 'Custom', :file => 'LICENSE' }
   s.author       = { "Triumph Labs Inc" => "info@triumpharcade.com" }
-  s.source       = { :http => 'https://cdn.triumpharcade.com/triumph-kit-releases/TriumphSDK-v1.2.0.zip' }
+  s.source       = { :http => 'https://cdn.triumpharcade.com/triumph-kit-releases/TriumphSDK-v1.2.1.zip' }
 
   s.swift_version    = '5.0'
   s.ios.deployment_target = '14.0'
   
-  s.dependency 'AmplitudeSwift', '0.3.2'
+  s.dependency 'Amplitude', '8.16.3'
   s.dependency 'CheckoutEventLoggerKit', '1.2.0'
   s.dependency 'CropViewController', '2.6.1'
   
