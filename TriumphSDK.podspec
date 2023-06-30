@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TriumphSDK"
-  s.version      = "1.2.2-UnityFix-4"
+  s.version      = "1.2.2-UnityFix-5"
   s.summary      = "The Premier Real Money Tournament SDK"
   s.description  = <<-DESC
   "To learn about Triumph's offerings, visit our website: https://www.triumpharcade.com"
@@ -30,6 +30,9 @@ Pod::Spec.new do |s|
   s.dependency 'PayPalCheckout', '0.110.0'
   s.dependency 'PhoneNumberKit', '3.3.3'
   s.dependency 'TweeTextField', '1.6.4'
+    
+  s.dependency 'Plaid', '4.2.0'
+  s.dependency 'SwiftMessages', '9.0.6'
 
   s.vendored_frameworks = 'TriumphSDK.xcframework', 'Intercom.xcframework', 'RecaptchaEnterprise.xcframework'
 end
