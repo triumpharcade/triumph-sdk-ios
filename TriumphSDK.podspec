@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TriumphSDK"
-  s.version      = "1.2.2-UnityFix-25"
+  s.version      = "1.2.2-UnityFix-26"
   # s.version      = "1.2.2-MAX-FIX-3"
   s.summary      = "The Premier Real Money Tournament SDK"
   s.description  = <<-DESC
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://www.triumpharcade.com"
   s.license      = { :type => 'Custom', :file => 'LICENSE' }
   s.author       = { "Triumph Labs Inc" => "info@triumpharcade.com" }
-  s.source       = { :http => 'https://cdn.triumpharcade.com/triumph-kit-releases/TriumphSDK-UnityFix-25.zip' }
+  s.source       = { :http => 'https://cdn.triumpharcade.com/triumph-kit-releases/TriumphSDK-UnityFix-26.zip' }
   # s.source       = { :http => 'https://cdn.triumpharcade.com/triumph-kit-releases/TriumphSDK-FIX-v1.2.3.zip' }
 
   s.swift_version    = '5.0'
