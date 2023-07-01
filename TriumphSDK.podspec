@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
   s.ios.deployment_target = '14.0'
   
-  s.dependency 'AmplitudeSwift', '0.3.2'
+  # s.dependency 'AmplitudeSwift', '0.3.2'
+  s.dependency 'Amplitude', '8.16.3'
   s.dependency 'CheckoutEventLoggerKit', '1.2.0'
   s.dependency 'CropViewController', '2.6.1'
   
