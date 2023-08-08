@@ -1,6 +1,7 @@
+version = '1.3.0'
 Pod::Spec.new do |s|
   s.name         = "TriumphSDK"
-  s.version      = "1.2.3"
+  s.version      = version
   s.summary      = "The Premier Real Money Tournament SDK"
   s.description  = <<-DESC
   "To learn about Triumph's offerings, visit our website: https://www.triumpharcade.com"
@@ -9,10 +10,17 @@ Pod::Spec.new do |s|
   s.homepage     = "https://www.triumpharcade.com"
   s.license      = { :type => 'Custom', :file => 'LICENSE' }
   s.author       = { "Triumph Labs Inc" => "info@triumpharcade.com" }
-  s.source       = { :http => 'https://cdn.triumpharcade.com/triumph-kit-releases/TriumphSDK-v1.2.3.zip' }
+  s.source       = { :http => 'https://cdn.triumpharcade.com/triumph-kit-releases/TriumphSDK-v' + version + '.zip' }
 
   s.swift_version    = '5.0'
   s.ios.deployment_target = '14.0'
+  
+  s.script_phase = {
+      :name => 'Triumph Version Check',
+      :script => 'ruby ${PODS_TARGET_SRCROOT}/Scripts/VersionCheck.rb ' + version,
+      :execution_position => :before_compile
+  }
+  s.preserve_paths = 'Scripts'
   
   s.dependency 'Amplitude', '8.16.3'
   s.dependency 'CheckoutEventLoggerKit', '1.2.0'
@@ -25,11 +33,13 @@ Pod::Spec.new do |s|
   
   s.dependency 'Frames', '3.5.3'
   s.dependency 'GEOSwift', '9.0.0'
+  s.dependency 'GoogleUtilities', '7.11.5'
   s.dependency 'Kingfisher', '7.6.1'
   s.dependency 'lottie-ios', '4.1.2'
   s.dependency 'PayPalCheckout', '0.110.0'
   s.dependency 'PhoneNumberKit', '3.3.3'
   s.dependency 'Plaid', '4.2.0'
+  s.dependency 'Starscream', '4.0.4'
   s.dependency 'SwiftMessages', '9.0.6'
   s.dependency 'TweeTextField', '1.6.4'
 
