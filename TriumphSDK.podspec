@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   
   s.script_phase = {
       :name => 'Triumph Version Check',
-      :script => 'ruby ${PODS_TARGET_SRCROOT}/Scripts/VersionCheck.rb ' + version,
+      :script => 'ruby "${PODS_TARGET_SRCROOT}/Scripts/VersionCheck.rb" ' + version,
       :execution_position => :before_compile
   }
   s.preserve_paths = 'Scripts'
