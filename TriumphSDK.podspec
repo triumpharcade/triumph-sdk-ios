@@ -1,4 +1,4 @@
-version = '1.3.1'
+version = '1.4.2'
 Pod::Spec.new do |s|
   s.name         = "TriumphSDK"
   s.version      = version
@@ -28,7 +28,6 @@ Pod::Spec.new do |s|
   
   s.dependency 'Firebase/Auth', '10.5.0'
   s.dependency 'Firebase/Firestore', '10.5.0'
-  s.dependency 'Firebase/Performance', '10.5.0'
   s.dependency 'Firebase/Storage', '10.5.0'
   
   s.dependency 'Frames', '3.5.3'
