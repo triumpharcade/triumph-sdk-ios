@@ -1,4 +1,4 @@
-version = '1.4.3'
+version = '1.4.4'
 Pod::Spec.new do |s|
   s.name         = "TriumphSDK"
   s.version      = version
