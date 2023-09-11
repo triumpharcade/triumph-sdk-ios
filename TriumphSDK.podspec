@@ -1,4 +1,4 @@
-version = '1.4.4'
+version = '1.4.5'
 Pod::Spec.new do |s|
   s.name         = "TriumphSDK"
   s.version      = version
@@ -26,21 +26,23 @@ Pod::Spec.new do |s|
   s.dependency 'CheckoutEventLoggerKit', '1.2.0'
   s.dependency 'CropViewController', '2.6.1'
   
-  s.dependency 'Firebase/Auth', '10.5.0'
-  s.dependency 'Firebase/Firestore', '10.5.0'
-  s.dependency 'Firebase/Storage', '10.5.0'
+  s.dependency 'Firebase/Auth', '10.14.0'
+  s.dependency 'Firebase/Firestore', '10.14.0'
+  s.dependency 'Firebase/Storage', '10.14.0'
   
   s.dependency 'Frames', '3.5.3'
   s.dependency 'GEOSwift', '9.0.0'
   s.dependency 'GoogleUtilities', '7.11.5'
+  s.dependency 'Intercom', '14.0.7'
   s.dependency 'Kingfisher', '7.6.1'
   s.dependency 'lottie-ios', '4.1.2'
   s.dependency 'PayPalCheckout', '0.110.0'
   s.dependency 'PhoneNumberKit', '3.3.3'
   s.dependency 'Plaid', '4.2.0'
+  s.dependency 'RecaptchaEnterprise', '18.1.1'
   s.dependency 'Starscream', '4.0.4'
   s.dependency 'SwiftMessages', '9.0.6'
   s.dependency 'TweeTextField', '1.6.4'
 
-  s.vendored_frameworks = 'TriumphSDK.xcframework', 'Intercom.xcframework', 'RecaptchaEnterprise.xcframework'
+  s.vendored_frameworks = 'TriumphSDK.xcframework'
 end
