@@ -45,4 +45,5 @@ Pod::Spec.new do |s|
   s.dependency 'TweeTextField', '1.6.4'
 
   s.vendored_frameworks = 'TriumphSDK.xcframework'
+  s.static_framework = true
 end
