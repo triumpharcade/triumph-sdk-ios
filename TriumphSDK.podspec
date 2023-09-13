@@ -1,4 +1,4 @@
-version = '1.4.5'
+version = '1.4.6'
 Pod::Spec.new do |s|
   s.name         = "TriumphSDK"
   s.version      = version
@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
       :execution_position => :before_compile
   }
   s.preserve_paths = 'Scripts'
+  s.static_framework = true
   
   s.dependency 'Amplitude', '8.16.3'
   s.dependency 'CheckoutEventLoggerKit', '1.2.0'
@@ -45,5 +46,4 @@ Pod::Spec.new do |s|
   s.dependency 'TweeTextField', '1.6.4'
 
   s.vendored_frameworks = 'TriumphSDK.xcframework'
-  s.static_framework = true
 end
