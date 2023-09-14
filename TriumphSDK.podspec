@@ -1,4 +1,4 @@
-version = '1.4.5'
+version = '1.4.6'
 Pod::Spec.new do |s|
   s.name         = "TriumphSDK"
   s.version      = version
@@ -21,14 +21,15 @@ Pod::Spec.new do |s|
       :execution_position => :before_compile
   }
   s.preserve_paths = 'Scripts'
+  s.static_framework = true
   
   s.dependency 'Amplitude', '8.16.3'
   s.dependency 'CheckoutEventLoggerKit', '1.2.0'
   s.dependency 'CropViewController', '2.6.1'
   
-  s.dependency 'Firebase/Auth', '10.14.0'
-  s.dependency 'Firebase/Firestore', '10.14.0'
-  s.dependency 'Firebase/Storage', '10.14.0'
+  s.dependency 'Firebase/Auth', '10.13.0'
+  s.dependency 'Firebase/Firestore', '10.13.0'
+  s.dependency 'Firebase/Storage', '10.13.0'
   
   s.dependency 'Frames', '3.5.3'
   s.dependency 'GEOSwift', '9.0.0'
