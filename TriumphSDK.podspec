@@ -27,9 +27,9 @@ Pod::Spec.new do |s|
   s.dependency 'CheckoutEventLoggerKit', '1.2.0'
   s.dependency 'CropViewController', '2.6.1'
   
-  s.dependency 'Firebase/Auth', '10.14.0'
-  s.dependency 'Firebase/Firestore', '10.14.0'
-  s.dependency 'Firebase/Storage', '10.14.0'
+  s.dependency 'Firebase/Auth', '10.13.0'
+  s.dependency 'Firebase/Firestore', '10.13.0'
+  s.dependency 'Firebase/Storage', '10.13.0'
   
   s.dependency 'Frames', '3.5.3'
   s.dependency 'GEOSwift', '9.0.0'
